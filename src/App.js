@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import'./Counter';
 
 const Welcome = (props) => {
   return (
@@ -22,6 +23,7 @@ const App= () => {
         <Welcome name={'Nick'} isTeacher />
         <Welcome name="Tim" />
         <Welcome name="Sam" />
+        <Counter/>
     </section>
   );
 }
