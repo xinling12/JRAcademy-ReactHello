@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import'./Counter';
+import Counter from './Counter';
 
 const Welcome = (props) => {
   return (
